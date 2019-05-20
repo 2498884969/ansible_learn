@@ -1,3 +1,4 @@
+# coding=utf-8
 from ansible.inventory.manager import InventoryManager
 from ansible.parsing.dataloader import DataLoader
 from ansible.vars.manager import VariableManager
@@ -14,3 +15,7 @@ def main():
     host.vars
     host.set_variable   
     """
+
+
+if __name__ == '__main__':
+    print '123'
