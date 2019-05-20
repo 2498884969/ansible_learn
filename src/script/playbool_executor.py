@@ -2,6 +2,7 @@
 from ansible.executor.playbook_executor import PlaybookExecutor
 from ansible.inventory.manager import InventoryManager
 from ansible.parsing.dataloader import DataLoader
+from ansible.plugins.callback import CallbackBase
 from ansible.vars.manager import VariableManager
 from collections import namedtuple
 from ansible.executor.task_queue_manager import TaskQueueManager
