@@ -1,3 +1,6 @@
 - hosts: all
   tasks:
     - ping:
+      name: first ping
+    - command: echo ok
+      name: second echo
