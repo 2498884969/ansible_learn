@@ -9,7 +9,7 @@ from ansible.vars.manager import VariableManager
 from collections import namedtuple
 from ansible.executor.task_queue_manager import TaskQueueManager
 from collections import OrderedDict
-from options import options
+from src.script.options import options
 
 
 # noinspection PyProtectedMember
@@ -26,10 +26,11 @@ class PlaybookCallback(CallbackBase):
         pass
 
     def playbook_on_stats(self, stats):
-        # 结束时调用
-        print 'stats', type(stats)
+        # 结束时调用,无论成功或者失败
+        print('stats', type(stats))
 
     def v2_runner_on_failed(self, result, ignore_errors=False):
+        # 异步执行失败也调用这里
         name = result._host.get_name()
         if name not in self.host_failed:
             self.host_failed[name] = OrderedDict()
@@ -43,6 +44,9 @@ class PlaybookCallback(CallbackBase):
             _result: dict
             _task_field
             task_name: Unicode
+        1. 任务超时后不会继续往下执行，并且结果中不存在rc， 任务执行成功rc为0，超时针对的时当前步骤
+        2. name只会显示步骤名称不会显示include名称
+        3. 多台主机只要有一台中间执行失败就会都执行失败
         """
         name = result._host.get_name()
         if name not in self.host_ok:
@@ -69,10 +73,8 @@ def main():
     callback = PlaybookCallback()
     playbook._tqm._stdout_callback = callback
     playbook.run()
-    # print callback.host_ok
-    with open('test.txt', 'wb') as f:
-        f.write(json.dumps(callback.host_ok, indent=2))
-    print json.dumps(callback.host_ok, indent=2)
+    print(callback.host_ok)
+    print(json.dumps(callback.host_ok, indent=2))
 
 
 if __name__ == '__main__':

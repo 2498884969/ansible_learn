@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2da48c7-f94a-4ee5-8bd3-731af16c024c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ansible_etc/in_a.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ansible_learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ansible_learn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_etc/hosts" beforeDir="false" afterPath="$PROJECT_DIR$/ansible_etc/hosts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ansible_etc/test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible_etc/test.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/script/playbool_executor.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/script/playbool_executor.py" afterDir="false" />
     </list>
@@ -15,8 +20,22 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ansible_learn$learn_variableManager.coverage" NAME="learn_variableManager Coverage Results" MODIFIED="1558250995295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/script" />
-    <SUITE FILE_PATH="coverage/ansible_learn$playbool_executor.coverage" NAME="playbool_executor Coverage Results" MODIFIED="1558537524484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/script" />
+    <SUITE FILE_PATH="coverage/ansible_learn$playbool_executor.coverage" NAME="playbool_executor Coverage Results" MODIFIED="1559360855534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/script" />
     <SUITE FILE_PATH="coverage/ansible_learn$ad_hoc.coverage" NAME="ad-hoc Coverage Results" MODIFIED="1558365176685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/script" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1060861957">
@@ -59,42 +78,47 @@
     <session id="887469774">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.41" value="2" />
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.61" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.86" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="help" value="2" />
-          <entry key="hosts" value="5" />
+          <entry key="hosts" value="6" />
           <entry key="http" value="1" />
-          <entry key="py" value="25" />
-          <entry key="yml" value="2" />
+          <entry key="py" value="33" />
+          <entry key="txt" value="1" />
+          <entry key="yml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTTP Request" value="1" />
-          <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="25" />
-          <entry key="YAML" value="2" />
+          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="Python" value="33" />
+          <entry key="YAML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="hosts" value="3" />
-          <entry key="py" value="1274" />
-          <entry key="yml" value="107" />
+          <entry key="Python Console" value="200" />
+          <entry key="hosts" value="41" />
+          <entry key="py" value="1449" />
+          <entry key="yml" value="349" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="1274" />
-          <entry key="YAML" value="107" />
+          <entry key="PLAIN_TEXT" value="41" />
+          <entry key="Python" value="1649" />
+          <entry key="YAML" value="349" />
         </counts>
       </usages-collector>
     </session>
@@ -102,12 +126,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/script/ad-hoc.py">
+        <entry file="file://$PROJECT_DIR$/src/script/learn_inventory.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="34" column="28" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="28" />
+            <state relative-caret-position="300">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
               <folding>
-                <element signature="e#15#69#0" expanded="true" />
+                <element signature="e#0#54#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,23 +140,30 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/script/playbool_executor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+            <state relative-caret-position="326">
+              <caret line="41" column="18" lean-forward="true" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
               <folding>
                 <element signature="e#15#26#0" expanded="true" />
-                <marker date="1558537519638" expanded="true" signature="459:1778" ph="..." />
-                <marker date="1558537519638" expanded="true" signature="698:1778" ph="..." />
-                <marker date="1558537519638" expanded="true" signature="1822:1823" ph="..." />
+                <marker date="1559360807454" expanded="true" signature="470:1951" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-758061797/918732847/ansible/inventory/host.py">
+        <entry file="file://$PROJECT_DIR$/ansible_etc/hosts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="100" column="16" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="16" />
+            <state relative-caret-position="50">
+              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ansible_etc/in_a.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -140,8 +171,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ansible_etc/test.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            <state relative-caret-position="225">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -168,13 +199,14 @@
       <list>
         <option value="$PROJECT_DIR$/ansible_etc/help" />
         <option value="$PROJECT_DIR$/src/script.py" />
-        <option value="$PROJECT_DIR$/src/script/learn_inventory.py" />
-        <option value="$PROJECT_DIR$/ansible_etc/hosts" />
         <option value="$PROJECT_DIR$/src/script/learn_variableManager.py" />
         <option value="$PROJECT_DIR$/src/script/options.py" />
         <option value="$PROJECT_DIR$/src/script/ad-hoc.py" />
-        <option value="$PROJECT_DIR$/ansible_etc/test.yml" />
+        <option value="$PROJECT_DIR$/ansible_etc/hosts" />
+        <option value="$PROJECT_DIR$/src/script/learn_inventory.py" />
         <option value="$PROJECT_DIR$/src/script/playbool_executor.py" />
+        <option value="$PROJECT_DIR$/ansible_etc/test.yml" />
+        <option value="$PROJECT_DIR$/ansible_etc/in_a.yml" />
       </list>
     </option>
   </component>
@@ -184,7 +216,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="423" />
     <option name="y" value="10" />
     <option name="width" value="1295" />
@@ -209,17 +241,6 @@
               <item name="ansible_learn" type="462c0819:PsiDirectoryNode" />
               <item name="ansible_etc" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ansible_learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ansible_learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ansible_learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ansible_learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="script" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -227,14 +248,22 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="ansible_learn" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="ansible_learn" />
+      </console-settings>
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -358,16 +387,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2397882" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.26928896" />
       <window_info id="Structure" order="2" weight="0.23298033" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4449918" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39901477" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31034482" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.47126436" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32840723" />
@@ -375,17 +404,17 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49924356" weight="0.32840723" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.42036125" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49924356" weight="0.42036125" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32840723" />
-      <window_info anchor="bottom" id="File Transfer" order="13" weight="0.32840723" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49924356" weight="0.48440066" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.37931034" />
+      <window_info anchor="bottom" id="File Transfer" order="13" weight="0.2824302" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Remote Host" order="5" visible="true" weight="0.054462936" />
-      <window_info anchor="right" id="R Graphics" order="6" />
-      <window_info anchor="right" id="R Packages" order="7" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
+      <window_info anchor="right" id="Remote Host" order="5" weight="0.31694403" />
+      <window_info anchor="right" id="R Graphics" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="R Packages" order="7" weight="0.32980332" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,27 +443,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/script/playbool_executor.py</url>
-          <line>35</line>
+          <line>36</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/script/playbool_executor.py</url>
-          <line>49</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/script/playbool_executor.py</url>
-          <line>56</line>
+          <line>60</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/script/playbool_executor.py</url>
-          <line>74</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/script/playbool_executor.py</url>
-          <line>47</line>
+          <line>51</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
@@ -469,20 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/script/learn_inventory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="7" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/script/options.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="119" selection-start-line="11" selection-start-column="119" selection-end-line="11" selection-end-column="119" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-758061797/918732847/ansible/playbook/play.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2725">
@@ -490,25 +495,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_etc/hosts">
+    <entry file="file://$PROJECT_DIR$/ansible_etc/help">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="12" />
+        <state relative-caret-position="125">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_etc/help">
       <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="60">
             <caret line="4" column="16" selection-start-line="4" selection-end-line="4" selection-end-column="16" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -540,23 +538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_etc/test.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/script/ad-hoc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="28" />
-          <folding>
-            <element signature="e#15#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-758061797/918732847/ansible/modules/storage/netapp/netapp_e_host.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
@@ -564,22 +545,100 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/script/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="21" selection-end-line="1214" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-758061797/918732847/ansible/inventory/host.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
+        <state relative-caret-position="509">
           <caret line="100" column="16" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/script/options.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_monkey.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2015">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/script/ad-hoc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1915363364/249573927/tokenize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="452" column="8" lean-forward="true" selection-start-line="452" selection-start-column="8" selection-end-line="452" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydevd_bundle/pydevd_comm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1788">
+          <caret line="373" column="45" selection-start-line="373" selection-start-column="45" selection-end-line="373" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansible_etc/hosts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansible_etc/test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansible_etc/in_a.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/script/learn_inventory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/script/playbool_executor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="326">
+          <caret line="41" column="18" lean-forward="true" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
           <folding>
             <element signature="e#15#26#0" expanded="true" />
-            <marker date="1558537519638" expanded="true" signature="459:1778" ph="..." />
-            <marker date="1558537519638" expanded="true" signature="698:1778" ph="..." />
-            <marker date="1558537519638" expanded="true" signature="1822:1823" ph="..." />
+            <marker date="1559360807454" expanded="true" signature="470:1951" ph="..." />
           </folding>
         </state>
       </provider>

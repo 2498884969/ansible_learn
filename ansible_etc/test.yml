@@ -1,6 +1,10 @@
 - hosts: all
+  gather_facts: no
   tasks:
     - ping:
-      name: first ping
-    - command: echo ok
-      name: second echo
+      name: step1
+    - shell: bash /tmp/sleep_1
+      name: step2
+      async: 3
+      poll: 1
+    - include: in_a.yml

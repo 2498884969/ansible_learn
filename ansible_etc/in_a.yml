@@ -1,0 +1,4 @@
+- command: echo1 hello_1
+  name: include_test3
+- command: echo1 hello_2
+  name: include_test4
